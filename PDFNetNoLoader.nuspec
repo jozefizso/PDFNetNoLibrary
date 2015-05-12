@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>PDFNetNoLoader</id>
-    <version>6.4.1.29791</version>
+    <version>6.4.1</version>
     <title>PDFNet SDK without loader</title>
     <authors>Jozef Izso</authors>
     <owners>Jozef Izso</owners>
