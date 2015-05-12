@@ -21,4 +21,10 @@ Developers use PDFNet SDK to read, write, and edit PDF documents compatible with
 PDFNetNoLibrary package Copyright (c) 2015 Jozef Izso</copyright>
     <tags>PDF viewer control component reader print forms split merge stamp XPS SVG HTML convert optimize redact encrypt pdftron pdfviewer rasterizer pdf2image converter WPF WinForms extract sign annotate pdf2html html2pdf pdf2svg</tags>
   </metadata>
+  <files>
+    <file src="build\**" target="build" />
+    <file src="lib\**" target="lib" />
+    <file src="tools\**" target="tools" />
+    <file src="*.pdf" target="." />
+  </files>
 </package>
