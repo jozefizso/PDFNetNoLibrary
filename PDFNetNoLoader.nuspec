@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>PDFNetNoLoader</id>
+    <version>6.4.1.29791</version>
+    <title>PDFNet SDK without loader</title>
+    <authors>Jozef Izso</authors>
+    <owners>Jozef Izso</owners>
+    <licenseUrl>https://api.pdftron.com/v2/view/NzQ4OGY5MWMtZWNhNi00ZDEwLWE5YjctY2UzNDlkMWVlZTBi</licenseUrl>
+    <projectUrl>https://github.com/jozefizso/PDFNetNoLibrary</projectUrl>
+    <iconUrl>http://www.pdftron.com/assets/images/icons/Nuget.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Reference native PDFNet library directly without the PDFNetLoader.dll library as official release does.
+
+Supports only x86 and x64 platform target. Does not support AnyCPU target.</description>
+    <summary>PDFNet SDK is the ultimate PDF toolkit.
+With PDFNet components you can build reliable &amp; speedy applications that can view, create, print, edit, and annotate PDFs ... across operating systems.
+Developers use PDFNet SDK to read, write, and edit PDF documents compatible with all published versions of PDF specification (including the latest ISO32000).</summary>
+    <releaseNotes>* PDFNet library v6.4.1.29791</releaseNotes>
+    <copyright>PDFNet library Copyright (c) 2015 PDFTron Systems Inc.
+PDFNetNoLibrary package Copyright (c) 2015 Jozef Izso</copyright>
+    <tags>PDF viewer control component reader print forms split merge stamp XPS SVG HTML convert optimize redact encrypt pdftron pdfviewer rasterizer pdf2image converter WPF WinForms extract sign annotate pdf2html html2pdf pdf2svg</tags>
+  </metadata>
+</package>
