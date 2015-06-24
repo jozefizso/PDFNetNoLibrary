@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>PDFNetNoLoader</id>
-    <version>6.4.1</version>
+    <version>6.5.1</version>
     <title>PDFNet SDK without loader</title>
     <authors>Jozef Izso</authors>
     <owners>Jozef Izso</owners>
@@ -16,7 +16,14 @@ Supports only x86 and x64 platform target. Does not support AnyCPU target.</desc
     <summary>PDFNet SDK is the ultimate PDF toolkit.
 With PDFNet components you can build reliable &amp; speedy applications that can view, create, print, edit, and annotate PDFs ... across operating systems.
 Developers use PDFNet SDK to read, write, and edit PDF documents compatible with all published versions of PDF specification (including the latest ISO32000).</summary>
-    <releaseNotes>* PDFNet library v6.4.1.29791</releaseNotes>
+    <releaseNotes>* PDFNet library v6.5.1.31640
+    
+* Added pdfron.PDF.Convert.Printer.GetMode to control whether Office Interop or the printer subsystem is used for Office conversion.
+* Added support for AnyCPU in .NET builds.
+* Open-sourced PDFNetLoader library.
+* Exported XFDF now includes appearance streams as images.
+* Added support for old-style JPEG compression for TIFF images.
+* Important bug fixes and incremental improvements.</releaseNotes>
     <copyright>PDFNet library Copyright (c) 2015 PDFTron Systems Inc.
 PDFNetNoLibrary package Copyright (c) 2015 Jozef Izso</copyright>
     <tags>PDF viewer control component reader print forms split merge stamp XPS SVG HTML convert optimize redact encrypt pdftron pdfviewer rasterizer pdf2image converter WPF WinForms extract sign annotate pdf2html html2pdf pdf2svg</tags>
